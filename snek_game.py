@@ -22,8 +22,8 @@ def init_snake():
 def new_food():
     global food
 
-    food_x = random.randint(0, (SC_X-SN_W)/SN_W) * SN_W
-    food_y = random.randint(0, (SC_Y-SN_W)/SN_W) * SN_W
+    food_x = random.randint(0, int((SC_X-SN_W)/SN_W)) * SN_W
+    food_y = random.randint(0, int((SC_Y-SN_W)/SN_W)) * SN_W
 
     food = pygame.Rect(food_x, food_y, SN_W, SN_W)
 
