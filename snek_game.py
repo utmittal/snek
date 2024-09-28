@@ -1,8 +1,6 @@
 import pygame
 import random
 
-print("Hello World")
-
 SC_X = 400
 SC_Y = 400
 SN_W = 20
